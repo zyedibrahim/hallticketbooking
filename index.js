@@ -7,14 +7,12 @@ dotenv.config()
 app.use(express.json());
 
 import { MongoClient } from "mongodb";
-// const MONGO_URL = "mongodb://127.0.0.1";
+
 const MONGO_URL = process.env.MONGO_URL
 const client = new MongoClient(MONGO_URL); // dial
 // Top level await
 await client.connect(); // call
 console.log("Mongo is connected !!!  ");
-
-// mongodb+srv://hallbooking:789789@flashspeed.hsre6qm.mongodb.net
 
 
 const PORT = process.env.PORT;
@@ -131,18 +129,6 @@ app.get("/bookeddata", async  function (request, response) {
   response.send(data);
 });
 
-
-
-
-
-// db.booking.updateMany({},{$set: {booked_status : "true"}})
-// Room Name
-// booked Status
-// customer name
-// Date
-
-// Start Time
-// end time
 
 app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 

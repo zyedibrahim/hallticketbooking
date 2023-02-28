@@ -72,3 +72,10 @@ as: "bookeddata"
 }
 }
 ])
+
+## API Router
+
+- rooms
+- booking
+- bookdeddata
+- bookedrecord

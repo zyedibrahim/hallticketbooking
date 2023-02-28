@@ -1,0 +1,101 @@
+[
+{
+"_id": "63fca55ff99301a39c3e26da",
+"id": 1,
+"name": "Room 1",
+"seats": 40,
+"amenities": [
+"projector",
+"sound system"
+],
+"price_per_hour": 100
+},
+{
+"_id": "63fca55ff99301a39c3e26db",
+"id": 2,
+"name": "Room 2",
+"seats": 50,
+"amenities": [
+"projector",
+"sound system",
+"privatepool"
+],
+"price_per_hour": 300
+},
+{
+"_id": "63fca55ff99301a39c3e26dc",
+"id": 3,
+"name": "Room 3",
+"seats": 50,
+"amenities": [
+"projector",
+"sound system",
+"theater"
+],
+"price_per_hour": 500
+},
+{
+"_id": "63fcb1e80ec8619fa3929a39",
+"id": 4,
+"name": "Room 4",
+"seats": 50,
+"amenities": [
+"projector",
+"sound system",
+"privatepool"
+],
+"price_per_hour": 300
+}
+]
+
+
+
+
+
+
+
+
+
+
+[
+{
+"_id": "63fca645f99301a39c3e26dd",
+"id": 1,
+"customer_name": "John Doe",
+"date": "2023-03-01",
+"start_time": "10:00",
+"end_time": "12:00",
+"room_id": 1,
+"booked_status": "true"
+},
+{
+"_id": "63fca645f99301a39c3e26de",
+"id": 2,
+"customer_name": "John Doony",
+"date": "2023-02-29",
+"start_time": "10:30",
+"end_time": "12:00",
+"room_id": 2,
+"booked_status": "true"
+},
+{
+"_id": "63fca645f99301a39c3e26df",
+"id": 3,
+"customer_name": "John",
+"date": "2023-02-21",
+"start_time": "10:30",
+"end_time": "12:00",
+"room_id": 3,
+"booked_status": "true"
+},
+{
+"_id": "63fcb2200ec8619fa3929a3a",
+"id": 4,
+"customer_name": "John Doe",
+"date": "2023-03-01",
+"start_time": "10:00",
+"end_time": "12:00",
+"room_id": 1,
+"booked_status": "true"
+}
+]

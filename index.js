@@ -18,8 +18,17 @@ console.log("Mongo is connected !!!  ");
 
 
 const PORT = process.env.PORT;
-app.get("/", function (request, response) {
-  response.send("🙋‍♂️, 🌏 🎊✨🤩");
+app.get("/", async  function (request, response) {
+
+  const data = await client
+  .db("hallticketbooking")
+  .collection("rooms")
+  .find({})
+  .toArray();
+
+
+
+  response.send(data);
 });
 
 
